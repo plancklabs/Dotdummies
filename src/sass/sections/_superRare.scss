@@ -1,0 +1,54 @@
+.super-rare {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	.title-container {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		.title {
+			color: var(--accent-color1);
+			font-size: 2.4rem;
+			text-decoration: double;
+		}
+		.description {
+			color: var(--accent-color3);
+			a {
+				color: var(--accent-color3);
+				font-weight: bold;
+			}
+		}
+	}
+	.cards {
+		display: flex;
+		justify-content: space-evenly;
+		// flex-direction: column;
+		flex-wrap: wrap;
+		gap: 5rem;
+	}
+}
+
+.back-to-basics-container {
+	min-height: 100vh;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+	.super-rare {
+		padding: 1rem 2rem;
+		.cards {
+			overflow: auto;
+			justify-content: center;
+			gap: 2rem;
+			padding-left: 0rem;
+			&::-webkit-scrollbar {
+				display: none;
+			}
+			.card {
+				zoom: 0.7;
+			}
+		}
+		.title-container {
+			align-items: center;
+		}
+	}
+}

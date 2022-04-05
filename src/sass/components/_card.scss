@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+.card {
+	background-color: var(--card-color);
+	width: 20vw;
+	border-radius: 1rem;
+	// display: flex;
+	// flex-direction: column;
+	// gap: 2rem;
+	// display: flex;
+	&-image {
+		img {
+			width: 100%;
+			object-fit: cover;
+			display: flex;
+			// flex-wrap: wrap;
+			border-radius: 1rem 1rem 0rem 0rem;
+		}
+	}
+	&-content {
+		display: flex;
+		flex-direction: row;
+		gap: 0.5rem;
+		padding: 1rem;
+		.card-heading {
+			display: flex;
+			justify-content: space-between;
+			.card-series {
+				color: var(--orange);
+				text-transform: uppercase;
+				font-size: 0.7rem;
+			}
+			.card-top {
+				color: var(--accent-color3);
+				text-transform: uppercase;
+				font-size: 0.7rem;
+			}
+		}
+		.card-details {
+			display: flex;
+			justify-content: space-between;
+			color: var(--accent-color1);
+			.card-title {
+				font-family: 'Nunito', sans-serif;
+			}
+			.card-price {
+				display: flex;
+				gap: 1rem;
+				// img {
+				// }
+				// h4 {
+				// }
+			}
+		}
+	}
+	.card-sub-details {
+		display: flex;
+		align-items: center;
+		// color: aqua;
+		padding: 1em;
+		justify-content: space-between;
+		span {
+			color: var(--accent-color3);
+			font-size: 0.9rem;
+			
+
+		}
+	}
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+	.card {
+	  width: 100%;
+	}
+  }
