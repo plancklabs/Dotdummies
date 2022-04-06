@@ -255,5 +255,12 @@ export const articles = [
     url: "https://medium.com/loom-network/polkadot-crowdloans-what-are-they-and-how-do-they-work-226b4a31d9c1",
     title:"Polkadot Crowdloans: What are they and how do they work?",
     categories: ['latest', 'back-to-basics']
+  },{
+    id:34,
+    image:"https://imgur.com/6GqwKdQ.png",
+    author:"bLd Nodes",
+    url:"https://medium.com/bld-nodes/monitoring-substrate-node-polkadot-kusama-parachains-validator-guide-922734ea4cdb",
+    title:"Monitoring Substrate node (Polkadot, Kusama, parachains) — Validator guide",
+    categories: ['latest','back-to-basics']
   }
   ];
