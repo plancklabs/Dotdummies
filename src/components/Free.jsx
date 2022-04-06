@@ -14,7 +14,7 @@ export default function Free() {
           <div className="image">
             {/* <img src="" alt="icon" /> */}
           </div>
-          <h2 className="title">Learn more about polkadot from basic</h2>
+          <h2 className="title">Learn more about Polkadot from basics</h2>
           <p className="description">
           Find all the relevant articles around the Dotsama ecosystem
           </p>

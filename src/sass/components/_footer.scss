@@ -11,19 +11,13 @@ footer {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
-      // .brand {
-      //   // img {
-      //   // }
-      // }
-      // p {
-      // }
+      
       ul {
         list-style-type: none;
         display: flex;
+        font-size: 2em;
         gap: 1rem;
-        // li {
-          
-        // }
+        
       }
     }
     .links {
@@ -67,6 +61,12 @@ footer {
       }
     }
   }
+}
+
+.social_link{
+  width: 40vw;
+  height: 20vh;
+  color: beige;
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {

@@ -17,7 +17,7 @@ export default function Card({ image, title, author, url }) {
 			</div>
 			<div className="card-sub-details">
 					<span>{author}</span>
-					<a style={{color:"white"}}
+					<a style={{color:"var(--accent-color1)"}}
 				href={url}
 			>
 				Read More
