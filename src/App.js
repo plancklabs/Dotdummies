@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Articles from './pages/Articles'
 import Navbar from './components/Navbar'
 import Back from "./pages/Back";
-import scrollreveal from "scrollreveal";
+//import scrollreveal from "scrollreveal";
 
 export default function App() {
   const [theme, setTheme] = useState("dark");
