@@ -32,7 +32,7 @@ export default function App() {
         }
       );
     };
-    registerAnimations();
+    //registerAnimations();
   }, []);
   return (
       <div  data-theme={theme} className="app-container">

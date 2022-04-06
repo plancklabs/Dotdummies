@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../assets/icon.png";
+
 
 
 export default function Free() {
@@ -12,7 +12,7 @@ export default function Free() {
         </div>
         <div className="content">
           <div className="image">
-            <img src={icon} alt="icon" />
+            {/* <img src="" alt="icon" /> */}
           </div>
           <h2 className="title">Learn more about polkadot from basic</h2>
           <p className="description">

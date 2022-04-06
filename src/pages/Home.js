@@ -11,9 +11,12 @@ import "../sass/index.scss";
 function Home() {
 
   return (
-    <div  className="app-container">
-      <ScrollToTop />
+   <>    
       <Hero />
+
+      <ScrollToTop />
+      
+      {/* <Hero /> */}
       <Latest/>
       <Free />
       <Back/>
@@ -21,7 +24,8 @@ function Home() {
       <Deep/>
       <Free />
       <Footer />
-    </div>
+      </>
+
   );
 }
 

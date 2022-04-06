@@ -93,7 +93,8 @@ nav {
       visibility: hidden;
       display: flex;
       justify-content: center;
-      align-items: center;
+      // align-items: center;
+      padding-top: 7rem;
       transition: 0.5s ease-in-out;
       .links {
         flex-direction: column;

@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import {  BsTwitter, BsGithub, BsReddit } from "react-icons/bs";
 export default function Footer() {
   const links = [
@@ -23,7 +22,7 @@ export default function Footer() {
       <div className="upper">
         <div className="brand-container">
           <div className="brand">
-            <img src={logo} alt="logo" />
+            <img src="https://imgur.com/b0zS5K4.png" alt="logo" />
           </div>
           <p>Exclusive Dot For Dummies</p>
           <ul>
