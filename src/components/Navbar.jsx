@@ -42,7 +42,7 @@ export default function Header({ changeTheme, currentTheme }) {
             <NavLink to="/back-to-basics">Back to basics</NavLink>
           </li>
           <li>
-            <a href="https://bitcharge.co/dotfordummies" target='blank'> Donate</a>
+            <a href="https://bitcharge.co/plancklabs" target='blank'> Donate</a>
           </li>
           
           <li onClick={changeTheme}>
