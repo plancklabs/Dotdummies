@@ -10,7 +10,7 @@ export default function Home() {
           <p className="description">
             Find all the relevant articles around the Dotsama ecosystem
           </p>
-          <button>Read More</button>
+          <a href="/articles"><button>Read More</button></a>
         </div>
         <div className="image-container">
           <div className="image">
