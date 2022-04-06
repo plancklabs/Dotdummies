@@ -13,25 +13,25 @@ export default function App() {
     theme === "dark" ? setTheme("light") : setTheme("dark");
   };
   useEffect(() => {
-    const registerAnimations = () => {
-      const sr = scrollreveal({
-        origin: "bottom",
-        distance: "80px",
-        duration: 2000,
-        reset: false,
-      });
-      sr.reveal(
-        `
-        nav,
-        .home,
-        .super-rare,
-        footer
-    `,
-        {
-          interval: 500,
-        }
-      );
-    };
+    // const registerAnimations = () => {
+    //   const sr = scrollreveal({
+    //     origin: "bottom",
+    //     distance: "80px",
+    //     duration: 2000,
+    //     reset: false,
+    //   });
+    //   sr.reveal(
+    //     `
+    //     nav,
+    //     .home,
+    //     .super-rare,
+    //     footer
+    // `,
+    //     {
+    //       interval: 500,
+    //     }
+    //   );
+    // };
     //registerAnimations();
   }, []);
   return (
