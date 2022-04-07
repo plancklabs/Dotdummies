@@ -12,7 +12,7 @@ export default function Latest({ image, title, author, url,index }) {
         <h2 className="title">Latest</h2>
       </div>
       <div className="cards">
-        {articles.filter(item => item.categories && item.categories.some(category_name => category_name === 'back-to-basics')).slice(0, 6).map(article => {
+        {articles.filter(item => item.categories && item.categories.some(category_name => category_name === 'latest')).slice(0, 6).map(article => {
           return (
             <Card
             image={article.image}

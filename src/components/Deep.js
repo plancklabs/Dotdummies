@@ -12,7 +12,7 @@ export default function Deep({ image, title, author, url,index }) {
         <h2 className="title">Deep dive</h2>
       </div>
       <div className="cards">
-        {articles.filter(item => item.categories && item.categories.some(category_name => category_name === 'back-to-basics')).slice(0, 6).map(article => {
+        {articles.filter(item => item.categories && item.categories.some(category_name => category_name === 'deep-dive')).slice(0, 8).map(article => {
           return (
             <Card
             image={article.image}
