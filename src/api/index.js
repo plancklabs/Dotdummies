@@ -45,6 +45,8 @@ export const articles = [
       author: "gbaci",
       url: "https://medium.com/@Picasso_Network/pallet-revolution-how-cubic-sets-the-standard-for-vault-infrastructure-in-dotsama-3a2f6cbf6783",
       title:"Reinforcing the RMRK Vision Given just how novel the RMRK protocol ",
+
+
     },
     {
       id: 7,// deep dive
@@ -52,7 +54,7 @@ export const articles = [
       author: " 0xbrainjar",
       url: "https://medium.com/composable-finance/the-philosophy-of-the-cross-chain-ecosystem-a-continuum-of-interoperability-33ed81350190",
       title: "The Philosophy of the Cross-Chain Ecosystem: A Continuum of ",
-      // categories: ['deep', 'back-to-basics']
+      categories: ['deep-dive']
 
     },
     {
@@ -126,7 +128,7 @@ export const articles = [
       author: "Leeway Hertz",
       url: "https://timestabloid.com/research-report-polkadot-consumes-least-amount-of-electricity-compared-to-other-top-blockchains/",
       title: " Polkadot Consumes Least Amount of Electricity Compared To Other Top Blockchains",
-      // categories: ['back-to-basics']
+
 
     },
     {
@@ -135,7 +137,7 @@ export const articles = [
       author: "Education",
       url: "https://www.reddit.com/r/dot/comments/rn2mel/pro_tip_how_to_understand_your_validators/",
       title:"Pro Tip: How To Understand Your Validators - ve seen a few posts regarding some confusion",
-      // categories: ['back-to-basics']
+
 
     },
     {
@@ -148,7 +150,8 @@ export const articles = [
       author: "The Polkadot Ecology",
       url: "https://www.reddit.com/r/dot/comments/t8svps/the_polkadot_ecology_infographic/",
       title:" The ecosystem is comprised of polkadot's Layer 0 relay chain,its canary network kusama,",
-      // categories: ['deep', 'back-to-basics']
+      categories:['deep-dive']
+
 
     },
     {
@@ -157,7 +160,8 @@ export const articles = [
       author: "0xbrainjar",
       url: "https://medium.com/composable-finance/the-primitives-needed-to-power-a-complete-defi-ecosystem-6e7d5cfdc525",
       title: "The Primitives Needed to Power a Complete",
-      // categories: ['latest', 'back-to-basics'] 
+      categories:['deep-dive']
+
     },
     {
       id: 22,//  latest
@@ -182,27 +186,34 @@ export const articles = [
       author: "Quarkslab's blogs",
       url: "https://blog.quarkslab.com/a-brief-overview-of-auditing-xcmv2.html",
       title: "A Brief Overview of Auditing XCMv2",
-      // categories: ['latest', 'back-to-basics']
+      categories:['deep-dive']
+
     },
 	{
 		id: 25,// deep dive
 		image: "https://imgur.com/9ts85Uv.png",
 		author: "Gilbert Bassey",
 		url: "https://medium.com/coinmonks/4-instances-of-game-theory-in-polkadot-that-blew-me-away-33610cf433f2#:~:text=game%20theory%20is%20a%20theoretical,network%20on%20an%20economic%20level",
-		title:"4 Instances of Game Theory in Polkadot That Blew Me Away"
+		title:"4 Instances of Game Theory in Polkadot That Blew Me Away",
+    categories:['deep-dive']
+
 	},{
 		id:26, // deep dive
 		image: "https://imgur.com/iNKBtni.png",
 		author: "Composable Finance",
 		url : "https://medium.com/composable-finance/the-dynamic-fee-model-powering-mosaics-transfer-availability-layer-f91011309592",
-		title: "The dynamic fee model powering Mosaic’s Transfer Availability Layer"
+		title: "The dynamic fee model powering Mosaic’s Transfer Availability Layer",
+    categories:['deep-dive']
+
 	},
 	{
 		id:27,// deep dive
 		image: 'https://imgur.com/9ts85Uv.png',
 		author: "Picasso",
 		url : "https://medium.com/@Picasso_Network/pallet-revolution-how-cubic-sets-the-standard-for-vault-infrastructure-in-dotsama-3a2f6cbf6783",
-		title: "Pallet revolution — how Cubic sets the standard for vault infrastructure in DotSama"
+		title: "Pallet revolution — how Cubic sets the standard for vault infrastructure in DotSama",
+    categories:['deep-dive']
+
 	},
   // deep dive all card
   {
@@ -251,7 +262,7 @@ export const articles = [
 		author: "by polkadot",
 		url:"https://polkadot.network/blog/polkadot-v1-0-sharding-and-economic-security/",
 		title: "Polkadot v1.0: Sharding and Economic Security  ",
-        // categories: ['deep-dive']
+    categories: ['deep-dive']
 	},
 	{
 		id:29,// basics
@@ -275,7 +286,7 @@ export const articles = [
 		author: "ledger academy",
 		url:"https://www.ledger.com/academy/crypto/polkadot-for-dummies",
 		title: "POLKADOT FOR DUMMIES",
-        // categories: ['latest', 'back-to-basics']
+    // categories: [ 'back-to-basics']
 	},
   {
      id:32,// basics
@@ -337,9 +348,9 @@ export const articles = [
   {
     id: 43,// basics
     image: "https://imgur.com/Q6HK8Fg.png",
-    author: "Leeway Hertz",
-    url: "https://timestabloid.com/research-report-polkadot-consumes-least-amount-of-electricity-compared-to-other-top-blockchains/",
-    title: " Polkadot Consumes Least Amount of Electricity Compared To Other Top Blockchains",
+    author: "by Joe Petrowski",
+    url: "https://polkadot.network/blog/polkadot-consensus-part-3-babe/",
+    title: " Polkadot Consensus Part 3: BABE ",
     categories: ['back-to-basics']
 
   },
