@@ -213,7 +213,7 @@ export const articles = [
     author:"Moderator",
     url:"https://cryptoslate.com/a-deep-dive-into-polkadots-tokenomics/",
     title:"A deep dive into Polkadot's tokenomics | CryptoSlate (June 20, 2021)",
-    categories:['deep-dive']
+    categories:['latest']
   },
   {
     id:42,
@@ -301,7 +301,7 @@ export const articles = [
     author:"bLd Nodes",
     url:"https://medium.com/bld-nodes/monitoring-substrate-node-polkadot-kusama-parachains-validator-guide-922734ea4cdb",
     title:"Monitoring Substrate node (Polkadot, Kusama, parachains) — Validator guide",
-    // categories: ['latest','back-to-basics']
+    // categories: ['latest']
   },
   // back to basics all card
   {
