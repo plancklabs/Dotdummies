@@ -58,15 +58,6 @@ export const articles = [
 
     },
     {
-      id: 8, //back to basics latest
-      image: "https://imgur.com/mn4yEW4.png" ,
-      author: "By Abdulbee",
-      url: "https://thiscoindaily.com/the-principled-guide-to-keeping-yourself-safe-in-the-dotsama-ecosystem/",
-      title: "The principled guide to keeping yourself safe in the DotSama ",
-      categories: ['latest']
-
-    },
-    {
       id: 9,// back to basics
       image: "https://imgur.com/W2yPNdO.png",
       author: "By Marmite Toast",
