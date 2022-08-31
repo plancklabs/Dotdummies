@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
 import {
   Route, Routes} from "react-router-dom";
+import ReactGA from "react-ga" 
 import Home from './pages/Home'
 import Articles from './pages/Articles'
 import Navbar from './components/Navbar'
 import Back from "./pages/Back";
 //import scrollreveal from "scrollreveal";
+
+const TRACKING_ID = "UA-222149617-1"  //TRACKING_ID
+ReactGA.initialize(TRACKING_ID)
 
 export default function App() {
   const [theme, setTheme] = useState("dark");
@@ -13,26 +17,8 @@ export default function App() {
     theme === "dark" ? setTheme("light") : setTheme("dark");
   };
   useEffect(() => {
-    // const registerAnimations = () => {
-    //   const sr = scrollreveal({
-    //     origin: "bottom",
-    //     distance: "80px",
-    //     duration: 2000,
-    //     reset: false,
-    //   });
-    //   sr.reveal(
-    //     `
-    //     nav,
-    //     .home,
-    //     .super-rare,
-    //     footer
-    // `,
-    //     {
-    //       interval: 500,
-    //     }
-    //   );
-    // };
-    //registerAnimations();
+    ReactGA.preview(window.location.pathname)
+   
   }, []);
   return (
       <div  data-theme={theme} className="app-container">
