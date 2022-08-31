@@ -13,6 +13,7 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
+    "react-snap": "^1.23.0",
     "sass": "^1.49.7",
     "scrollreveal": "^4.0.9",
     "web-vitals": "^2.1.4"
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [
