@@ -8,7 +8,7 @@ import Navbar from './components/Navbar'
 import Back from "./pages/Back";
 //import scrollreveal from "scrollreveal";
 
-const TRACKING_ID = "UA-222149617-1"  //TRACKING_ID
+const TRACKING_ID = "G-2CX41MV2S4"  //TRACKING_ID
 ReactGA.initialize(TRACKING_ID)
 
 export default function App() {
