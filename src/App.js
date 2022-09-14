@@ -16,10 +16,10 @@ export default function App() {
   const changeTheme = () => {
     theme === "dark" ? setTheme("light") : setTheme("dark");
   };
-  useEffect(() => {
-    ReactGA.preview(window.location.pathname)
+  // useEffect(() => {
+  //   ReactGA.preview(window.location.pathname)
    
-  }, []);
+  // }, []);
   return (
       <div  data-theme={theme} className="app-container">
            <Navbar changeTheme={changeTheme} currentTheme={theme} />
