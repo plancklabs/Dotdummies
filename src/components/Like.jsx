@@ -1,6 +1,5 @@
 import React from "react";
-// import eth1 from "../assets/eth1.png";
-// import eth2 from "../assets/eth2.png";
+import { JsonLd } from "react-schemaorg";
 
 export default function Like() {
   return (
@@ -37,6 +36,35 @@ export default function Like() {
           </p>
         </div>
       </div>
+      <JsonLd
+      item={{
+        "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.dotfordummies.com"
+          },
+          "headline": "Dot for Dummies",
+          "description": "A Comprehensive Reading List for Polkadot",
+          "image": "https://imgur.com/b0zS5K4.png",  
+          "author": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "url": "https://imgur.com/b0zS5K4.png"
+          },  
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://imgur.com/b0zS5K4.png"
+            }
+          },
+          "datePublished": "2022-09-09",
+          "dateModified": "2022-09-09"
+        
+      }}
+    />
     </div>
   );
 }

@@ -1,7 +1,10 @@
 import React from "react";
+import { BlogPosting } from "schema-dts";
+import { JsonLd } from "react-schemaorg";
 
 export default function Home() {
   return (
+
     <div className="home">
       <div className="container">
         <div className="content">
@@ -22,7 +25,67 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <JsonLd
+      item={{
+        "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.dotfordummies.com"
+          },
+          "headline": "Dot for Dummies",
+          "description": "A Comprehensive Reading List for Polkadot",
+          "image": "https://imgur.com/b0zS5K4.png",  
+          "author": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "url": "https://imgur.com/b0zS5K4.png"
+          },  
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://imgur.com/b0zS5K4.png"
+            }
+          },
+          "datePublished": "2022-09-09",
+          "dateModified": "2022-09-09"
+        
+      }}
+    />
     </div>
   );
 }
+
+
+// 
+
+// <script type="application/ld+json">
+// {
+//   "@context": "https://schema.org",
+//   "@type": "BlogPosting",
+//   "mainEntityOfPage": {
+//     "@type": "WebPage",
+//     "@id": "https://www.dotfordummies.com"
+//   },
+//   "headline": "Dot for Dummies",
+//   "description": "A Comprehensive Reading List for Polkadot",
+//   "image": "https://imgur.com/b0zS5K4.png",  
+//   "author": {
+//     "@type": "Organization",
+//     "name": "Dot for Dummies",
+//     "url": "https://imgur.com/b0zS5K4.png"
+//   },  
+//   "publisher": {
+//     "@type": "Organization",
+//     "name": "Dot for Dummies",
+//     "logo": {
+//       "@type": "ImageObject",
+//       "url": "https://imgur.com/b0zS5K4.png"
+//     }
+//   },
+//   "datePublished": "2022-09-09",
+//   "dateModified": "2022-09-09"
+// }
+// </script>

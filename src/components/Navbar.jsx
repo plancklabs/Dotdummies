@@ -4,6 +4,8 @@ import { MdClose } from "react-icons/md";
 import { ImSun } from "react-icons/im";
 import { NavLink } from "react-router-dom";
 import { BsFillMoonFill } from "react-icons/bs";
+import { JsonLd } from "react-schemaorg";
+
 
 export default function Header({ changeTheme, currentTheme }) {
   const [navState, setNavState] = useState(false);
@@ -54,6 +56,35 @@ export default function Header({ changeTheme, currentTheme }) {
           </li>
         </ul>
       </div>
+      <JsonLd
+      item={{
+        "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.dotfordummies.com"
+          },
+          "headline": "Dot for Dummies",
+          "description": "A Comprehensive Reading List for Polkadot",
+          "image": "https://imgur.com/b0zS5K4.png",  
+          "author": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "url": "https://imgur.com/b0zS5K4.png"
+          },  
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://imgur.com/b0zS5K4.png"
+            }
+          },
+          "datePublished": "2022-09-09",
+          "dateModified": "2022-09-09"
+        
+      }}
+    />
     </nav>
   );
 }

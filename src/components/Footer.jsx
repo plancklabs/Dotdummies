@@ -1,5 +1,8 @@
 import React from "react";
 import {  BsTwitter, BsGithub, BsReddit } from "react-icons/bs";
+import { JsonLd } from "react-schemaorg";
+
+
 export default function Footer() {
   const links = [
     {
@@ -11,10 +14,7 @@ export default function Footer() {
       title: "Contact",
       data: ["Press", "Support"],
     },
-    // {
-    //   title: "Social",
-    //   data: ["Twitter", "Github", "Reddit"],
-    // },
+
   ];
   
   return (
@@ -38,21 +38,6 @@ export default function Footer() {
           </ul>
         </div>
         <div className="links">
-
-        {/* <p>Social</p>
-        <ul>
-          <li>
-            <a href="/" className="link">Twitter</a>
-          </li>
-          <li>
-            <a href="/" className="link">Github</a>
-          </li>
-          <li>
-            <a href="/" className="link">Reddit</a>
-          </li>
-          
-        </ul> */}
-
           {links.map(({ title, data }, index) => {
             return (
               <div className="link" key={index}>
@@ -70,6 +55,35 @@ export default function Footer() {
       <div className="lower">
         <span>&copy;Copyright @ 2022 Dotfordummies. All rights reserved.</span>
       </div>
+      <JsonLd
+      item={{
+        "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.dotfordummies.com"
+          },
+          "headline": "Dot for Dummies",
+          "description": "A Comprehensive Reading List for Polkadot",
+          "image": "https://imgur.com/b0zS5K4.png",  
+          "author": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "url": "https://imgur.com/b0zS5K4.png"
+          },  
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dot for Dummies",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://imgur.com/b0zS5K4.png"
+            }
+          },
+          "datePublished": "2022-09-09",
+          "dateModified": "2022-09-09"
+        
+      }}
+    />
     </footer>
   );
 }
