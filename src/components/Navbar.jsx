@@ -13,7 +13,7 @@ export default function Header({ changeTheme, currentTheme }) {
     <nav>
       <div className="brand-container">
         <div className="brand">
-        <a href="/"  ><img src="https://imgur.com/b0zS5K4.png" alt="logo" /></a>
+            <NavLink to="/" ><img src="https://imgur.com/b0zS5K4.png" alt="logo" /></NavLink>
         </div>
         <div className="toggle-container">
           <div className="toggle">
@@ -40,13 +40,13 @@ export default function Header({ changeTheme, currentTheme }) {
           <li>
             <NavLink to="/articles">Articles</NavLink>
           </li>
-           <li>
+          <li>
             <NavLink to="/back-to-basics">Back to basics</NavLink>
           </li>
           <li>
             <a href="https://bitcharge.co/plancklabs" target='blank'> Donate</a>
           </li>
-          
+
           <li onClick={changeTheme}>
             {currentTheme === "dark" ? (
               <ImSun className="light" />
@@ -57,8 +57,8 @@ export default function Header({ changeTheme, currentTheme }) {
         </ul>
       </div>
       <JsonLd
-      item={{
-        "@context": "https://schema.org",
+        item={{
+          "@context": "https://schema.org",
           "@type": "BlogPosting",
           "mainEntityOfPage": {
             "@type": "WebPage",
@@ -66,12 +66,12 @@ export default function Header({ changeTheme, currentTheme }) {
           },
           "headline": "Dot for Dummies",
           "description": "A Comprehensive Reading List for Polkadot",
-          "image": "https://imgur.com/b0zS5K4.png",  
+          "image": "https://imgur.com/b0zS5K4.png",
           "author": {
             "@type": "Organization",
             "name": "Dot for Dummies",
             "url": "https://imgur.com/b0zS5K4.png"
-          },  
+          },
           "publisher": {
             "@type": "Organization",
             "name": "Dot for Dummies",
@@ -82,9 +82,9 @@ export default function Header({ changeTheme, currentTheme }) {
           },
           "datePublished": "2022-09-09",
           "dateModified": "2022-09-09"
-        
-      }}
-    />
+
+        }}
+      />
     </nav>
   );
 }

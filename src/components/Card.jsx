@@ -3,7 +3,6 @@ import { JsonLd } from "react-schemaorg";
 
 
 export default function Card({ image, title, author, url }) {
-
 	return (
 		<div className="card">
 			<div className="card-image">
@@ -54,7 +53,6 @@ export default function Card({ image, title, author, url }) {
 
 				}}
 			/>
-
 		</div>
 	);
 }

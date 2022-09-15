@@ -7,7 +7,6 @@ import { JsonLd } from "react-schemaorg";
 
 
 export default function Back({ image, title, author, url,index }) {
-
   return (
     <div className="super-rare">
       <div className="title-container">

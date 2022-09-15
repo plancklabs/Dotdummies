@@ -1,7 +1,6 @@
 import React from "react";
-import {  BsTwitter, BsGithub, BsReddit } from "react-icons/bs";
+import { BsTwitter, BsGithub, BsReddit } from "react-icons/bs";
 import { JsonLd } from "react-schemaorg";
-
 
 export default function Footer() {
   const links = [
@@ -9,14 +8,14 @@ export default function Footer() {
       title: "About",
       data: ["About", "Terms", "Legal"],
     },
-   
+
     {
       title: "Contact",
       data: ["Press", "Support"],
     },
 
   ];
-  
+
   return (
     <footer>
       <div className="upper">
@@ -27,13 +26,13 @@ export default function Footer() {
           <p>Exclusive Dot For Dummies</p>
           <ul >
             <li>
-            <a className="social_link" href='https://github.com/plancklabs/Dotdummies'><BsGithub /></a>
+              <a className="social_link" href='https://github.com/plancklabs/Dotdummies'><BsGithub /></a>
             </li>
             <li>
-            <a className="social_link" href="https://twitter.com/DotforDummies"><BsTwitter /></a>
+              <a className="social_link" href="https://twitter.com/DotforDummies"><BsTwitter /></a>
             </li>
             <li>
-            <a className="social_link" href='https://www.reddit.com/r/dot/'><BsReddit /></a>
+              <a className="social_link" href='https://www.reddit.com/r/dot/'><BsReddit /></a>
             </li>
           </ul>
         </div>
@@ -56,8 +55,8 @@ export default function Footer() {
         <span>&copy;Copyright @ 2022 Dotfordummies. All rights reserved.</span>
       </div>
       <JsonLd
-      item={{
-        "@context": "https://schema.org",
+        item={{
+          "@context": "https://schema.org",
           "@type": "BlogPosting",
           "mainEntityOfPage": {
             "@type": "WebPage",
@@ -65,12 +64,12 @@ export default function Footer() {
           },
           "headline": "Dot for Dummies",
           "description": "A Comprehensive Reading List for Polkadot",
-          "image": "https://imgur.com/b0zS5K4.png",  
+          "image": "https://imgur.com/b0zS5K4.png",
           "author": {
             "@type": "Organization",
             "name": "Dot for Dummies",
             "url": "https://imgur.com/b0zS5K4.png"
-          },  
+          },
           "publisher": {
             "@type": "Organization",
             "name": "Dot for Dummies",
@@ -81,9 +80,9 @@ export default function Footer() {
           },
           "datePublished": "2022-09-09",
           "dateModified": "2022-09-09"
-        
-      }}
-    />
+
+        }}
+      />
     </footer>
   );
 }

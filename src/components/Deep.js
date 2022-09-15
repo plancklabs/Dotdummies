@@ -4,10 +4,7 @@ import "../sass/index.scss";
 import { articles } from "../api";
 import { JsonLd } from "react-schemaorg";
 
-
-
 export default function Deep({ image, title, author, url,index }) {
-
   return (
     <div className="super-rare">
       <div className="title-container">
