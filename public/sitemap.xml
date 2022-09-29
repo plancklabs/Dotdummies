@@ -3,11 +3,30 @@
   <url>
     <loc>https://www.dotfordummies.com/</loc>
     <lastmod>2022-09-29T12:06:52+00:00</lastmod>
+     <priority>1.00</priority>
     
   </url>
   <url>
-    <loc>https://www.dotfordummies.com/articles/</loc>
+    <loc>https://www.dotfordummies.com/articles/home</loc>
     <lastmod>2022-09-29T12:06:52+00:00</lastmod>
      <priority>1.00</priority>
   </url>
+  <url>
+    <loc>https://www.dotfordummies.com/articles/articles</loc>
+    <lastmod>2022-09-29T12:06:52+00:00</lastmod>
+     <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.dotfordummies.com/articles/back to basic</loc>
+    <lastmod>2022-09-29T12:06:52+00:00</lastmod>
+     <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.dotfordummies.com/articles/donate</loc>
+    <lastmod>2022-09-29T12:06:52+00:00</lastmod>
+     <priority>1.00</priority>
+  </url>
+  
 </urlset>
+
+<!-- https://www.dotfordummies.com/ 2022-09-29T12:06:52+00:00 1.00 https://www.dotfordummies.com/articles/ 2022-09-29T12:06:52+00:00 0.80 https://www.dotfordummies.com/back-to-basics/ 2022-09-29T12:06:52+00:00 0.80 -->
