@@ -1,1 +1,13 @@
-https://www.dotfordummies.com/ 2022-09-29T12:06:52+00:00 1.00 https://www.dotfordummies.com/articles/ 2022-09-29T12:06:52+00:00 0.80 https://www.dotfordummies.com/back-to-basics/ 2022-09-29T12:06:52+00:00 0.80
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.dotfordummies.com/</loc>
+    <lastmod>2022-09-29T12:06:52+00:00</lastmod>
+    
+  </url>
+  <url>
+    <loc>https://www.dotfordummies.com/articles/</loc>
+    <lastmod>2022-09-29T12:06:52+00:00</lastmod>
+     <priority>1.00</priority>
+  </url>
+</urlset>
