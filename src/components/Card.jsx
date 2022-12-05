@@ -1,29 +1,41 @@
 import React from "react";
 import { JsonLd } from "react-schemaorg";
+import "./Newcard.css"
+import {Card, Col, Row } from "react-bootstrap";
 
 
-export default function Card({ image, title, author, url }) {
+export default function Cards({ image, title, author, url }) {
 	return (
-		<div className="card">
-			<div className="card-image">
-				<img src={image} alt="super1" />
-			</div>
-			<div className="card-content">
-				<div className="card-heading">
-					<span className="card-series"></span>
+		<>
+			<section className="container-fluid secSpacer ">
+				<div className="container">
+					<Row>
+						<Col xs={12} md={6} lg={4}>
+							<Card style={{ width: "25rem", height: "31.8rem" }}>
+								<Card.Img
+									variant="top"
+									src={image} alt="super1"
+								/>
+								<Card.Body>
+									<Card.Text>
+										{title}
+									</Card.Text>
+								</Card.Body>
+								<div class="card-footer">
+									<button class="btn btn-success">{author}</button>
+									<button class="btn btn-border"><a
+										href={url}
+									>
+										Read More
+									</a></button>
+								</div>
+							</Card>
+						</Col>
+					</Row>
 				</div>
-				<div className="card-details">
-					<h4 className="card-title">{title}</h4>
-				</div>
-			</div>
-			<div className="card-sub-details">
-				<span>{author}</span>
-				<a style={{ color: "var(--accent-color1)" }}
-					href={url}
-				>
-					Read More
-				</a>
-			</div>
+			</section>
+			{/*  */}
+
 			<JsonLd
 				item={{
 					"@context": "https://schema.org",
@@ -53,6 +65,7 @@ export default function Card({ image, title, author, url }) {
 
 				}}
 			/>
-		</div>
+
+		</>
 	);
 }

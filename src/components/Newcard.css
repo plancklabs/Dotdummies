@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 5px;
+}
+
+h2 {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 0px 10px;
+}
+
+.card {
+  width: 320px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white !important;
+  box-shadow: 0 0.2rem 0.6rem #0003;
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card > img {
+  border-radius: 2px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.card h3 {
+  color: purple;
+}
+
+.card p {
+  color: #757575;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  color: #ff3998;
+}
+.btn {
+  background-color: unset;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-success {
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.btn-border {
+  border: none;
+  outline: none;
+  justify-content: space-between;
+}
+
+/*  */

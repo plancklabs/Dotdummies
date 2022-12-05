@@ -361,6 +361,33 @@ export const articles = [
 		title:"What is Polkadot and why you should invest in ",
     categories: ['bact-to-basics']
 	},
+  {
+    id:31,
+    image:"https://imgur.com/kpC08NZ.png",
+    author:"Polkadotters",
+    url:"https://polkadotters.medium.com/the-power-of-nomination-pools-on-polkadot-ef0b4113028c",
+    title:"Polkadotter article about the Nomination Pools on Polkadot",
+    categories:[]
+
+  },
+  {
+    id:32,
+    image:"https://imgur.com/We4qLRL.png",
+    author:"Yung Beef 4.2",
+    url:"https://polkaverse.com/4784/substrate-governance-2-0-open-gov-36429",
+    title:"Youngbeef published article on Substrate Governance 2.0",
+    categories:[]
+
+  },
+  {
+    id:33,
+    image:"https://imgur.com/UQxOKJq.png",
+    author:"Antônio Marcelo",
+    url:"https://medium.com/@antonmarcelo/setup-a-linux-box-for-polkadot-environment-9dc93606401f",
+    title:"Tony garcia article on How to setting linux on Polkadot",
+
+  }
+
   ];
 
 

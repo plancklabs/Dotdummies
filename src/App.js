@@ -9,6 +9,7 @@ import Back from "./pages/Back";
 import { JsonLd } from "react-schemaorg";
 
 
+
 const TRACKING_ID = "G-2CX41MV2S4"  //TRACKING_ID
 ReactGA.initialize(TRACKING_ID)
 
