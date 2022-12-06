@@ -131,10 +131,7 @@ export const articles = [
 
 
     },
-    {
-      
-
-    },
+    
     {
       id: 20, // deep dive
       image:"https://imgur.com/F3oLPgs.png",
@@ -372,7 +369,7 @@ export const articles = [
   },
   {
     id:32,
-    image:"https://imgur.com/We4qLRL.png",
+    image:"https://imgur.com/hPHL6cU.png",
     author:"Yung Beef 4.2",
     url:"https://polkaverse.com/4784/substrate-governance-2-0-open-gov-36429",
     title:"Youngbeef published article on Substrate Governance 2.0",
@@ -381,10 +378,27 @@ export const articles = [
   },
   {
     id:33,
-    image:"https://imgur.com/UQxOKJq.png",
+    image:"https://imgur.com/K0G2Qt6.png",
     author:"Antônio Marcelo",
     url:"https://medium.com/@antonmarcelo/setup-a-linux-box-for-polkadot-environment-9dc93606401f",
     title:"Tony garcia article on How to setting linux on Polkadot",
+    categories:[]
+  },
+  {
+    id:34,
+    image:"https://imgur.com/IFWE9uo.png",
+    author:"Everything Blockchain",
+    url:"https://polkaverse.com/4473/polkadot-a-heterogeneous-multi-chain-framework-34920",
+    title:"Everything blockchain article on What is Polkadot",
+    categories:[]
+  },
+  {
+    id:35,
+    image:"https://imgur.com/nuNzMQG.png",
+    author:"Csaint02",
+    url:"https://polkaverse.com/@csaint02.dot/beginner-s-guide-31297",
+    title:"Csaint article on Polkadot",
+    categories:[]
 
   }
 

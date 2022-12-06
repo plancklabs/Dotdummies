@@ -18,6 +18,7 @@ export default function App() {
   const changeTheme = () => {
     theme === "dark" ? setTheme("light") : setTheme("dark");
   };
+
   // useEffect(() => {
   //   ReactGA.preview(window.location.pathname)
    
