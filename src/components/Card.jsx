@@ -11,7 +11,7 @@ export default function Cards({ image, title, author, url }) {
 				<div className="container">
 					<Row>
 						<Col xs={12} md={6} lg={4}>
-							<Card style={{ width: "25rem", height: "31.8rem" }}>
+							<Card style={{ width: "20rem", height: "27rem" }}>
 								<Card.Img
 									variant="top"
 									src={image} alt="super1"
