@@ -400,6 +400,14 @@ export const articles = [
     title:"Csaint article on Polkadot",
     categories:[]
 
+  },
+  {
+    id:36,
+    image:"https://imgur.com/Xv8lK7M.png.png",
+    author:"Isa_Bell",
+    url:"https://medium.com/kuwtc/about-polkadots-new-generation-governance-system-gov2-91eb7f5ad61a",
+    title:"About Polkadot’s New Generation Governance System (Gov2)",
+    categories:['latest']
   }
 
   ];
